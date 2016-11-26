@@ -1,0 +1,23 @@
+{
+  "name": "tcpserver",
+  "version": "1.0.0",
+  "description": "tcpserver",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haixoay96/TCPserver.git"
+  },
+  "keywords": [
+    "tcp",
+    "server"
+  ],
+  "author": "Nguyen Duc Linh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haixoay96/TCPserver/issues"
+  },
+  "homepage": "https://github.com/haixoay96/TCPserver#readme"
+}
