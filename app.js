@@ -2,7 +2,6 @@ var net = require('net');
 var server = net.createServer();
 
 
-
 server.on('connection', (socket) => {
     console.log('Connected!');
     socket.on('data', (data) => {
@@ -16,6 +15,6 @@ server.on('connection', (socket) => {
 server.on('error', (error) => {
     console.log('Have error');
 });
-server.listen(3000, () => {
-    console.log('server running at port 3000!');
+server.listen(5000, () => {
+    console.log('server running at port 5000!');
 });

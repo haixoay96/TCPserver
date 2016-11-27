@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/haixoay96/TCPserver/issues"
   },
-  "homepage": "https://github.com/haixoay96/TCPserver#readme"
+  "homepage": "https://github.com/haixoay96/TCPserver#readme",
+  "dependencies": {
+    "mysql": "^2.12.0"
+  }
 }
