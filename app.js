@@ -7,6 +7,7 @@ server.on('connection', (socket) => {
     socket.on('data', (data) => {
         console.log(data);
         console.log(data.toString());
+        socket.write(data);
     });
     socket.on('end', ()=> {
         console.log('end!');
